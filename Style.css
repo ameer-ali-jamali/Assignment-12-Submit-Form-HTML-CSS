@@ -1,0 +1,122 @@
+h1 {
+  font-size: 37px;
+  margin-top: 12px;
+  color: rgb(19, 79, 190);
+  background-color: rgb(219, 203, 58);
+}
+h2 {
+  margin-top: -24px;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  color: rgb(19, 79, 190);
+  background-color: rgb(219, 203, 58);
+}
+
+tr,
+td {
+  color: white;
+  font-size: larger;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+}
+
+.tbl-btn {
+  width: 67ch;
+  font-size: large;
+  font-weight: bolder;
+  border-radius: 7px;
+  height: 39px;
+}
+
+.tbl-btn:hover {
+  color: yellow;
+  background-color: blue;
+}
+
+.reset-btn {
+  width: 67ch;
+  font-size: large;
+  font-weight: bolder;
+  border-radius: 7px;
+  height: 39px;
+}
+
+.reset-btn:hover {
+  color: white;
+  background-color: crimson;
+}
+.lng-slct {
+  height: 30px;
+  width: 512px;
+}
+
+.box-design {
+  height: 25px;
+  width: 503px;
+}
+
+input:hover {
+  background-color: rgba(23, 175, 235, 0.795);
+  color: white;
+}
+input:focus {
+  background-color: darkblue;
+  color: white;
+}
+textarea:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+caption {
+  color: white;
+  margin-bottom: 20px;
+}
+
+#form {
+  margin-top: 2px;
+  position: relative;
+}
+
+.container {
+  background-color: green;
+  margin-bottom: auto;
+  height: 495px;
+  position: absolute;
+  width: 715px;
+  margin-left: 24%;
+}
+
+.about-design {
+  height: 26px;
+  width: 506px;
+}
+
+footer {
+  text-align: center;
+  font-weight: bolder;
+  font-size: larger;
+  color: white;
+  margin-left: -23%;
+}
+
+.month-box {
+  width: 155px;
+}
+.date-box {
+  width: 172px;
+}
+.year-box {
+  width: 172px;
+}
+/* .flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 10px;
+} */

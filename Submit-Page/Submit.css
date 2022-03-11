@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: URL('/fonts/DancingScript-Bold.ttf') format('truetype');
+}
+nav {
+  text-align: center;
+}
+.icons-img{
+    
+}
+button {
+    display: inline;
+    border: none;
+    margin-left: 32px;
+    background-color: #0f2421;
+    color: white;
+    padding: 6px;
+} 
+button:hover {
+    background-color: rgb(79 205 79);
+    color: honeydew;
+   
+    transition: 1s;
+    transform: scale(1.5,1.2);
+}
+p{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 27px;
+    font-family: Mycustomfont;
+    font-size: xxx-large;
+}
+p:hover{
+    color: chartreuse;
+    background-color: cornflowerblue;
+}
+img {
+    height: 186px;
+    width: 311px;
+    transition-property: all;
+  
+}
+img:hover {
+  transition: 2s;
+  transform: scale(1.9, 1.8) rotate(360deg);
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 16px;
+    margin-left: 216px;
+    margin-top: -25px;
+    row-gap: 11px;
+}
+
+figure {
+  margin: 0px;
+}
+
+body {
+  background-color: wheat;
+}
+#img{
+    width: 209px;
+    height: 212px;
+}
+#center-img{
+    width: 515px;
+    height: 212px;
+}
+footer {
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+    margin-left: -69%;
+    margin-bottom: -7%;
+}
+
